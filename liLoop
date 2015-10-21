@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+
+<div data-ng-app="" data-ng-init="names=['Jani','Hege','Kai']">
+  <p>Looping with ng-repeat:</p>
+  <ul>
+    <li data-ng-repeat="x in names">
+      {{ x }}
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
